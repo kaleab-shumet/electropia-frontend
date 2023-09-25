@@ -1,0 +1,39 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    align-items: flex-start;
+}
+
+.image-container{
+    align-self: center;
+    max-width: 17em;
+}
+
+.product .title-container{
+    max-height: 7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 1em 0;
+    max-width: 14em;
+}
+
+.product .title p{
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;    
+    text-overflow: ellipsis;
+}
+
+
+.rating{
+    display: flex;
+}
+
+.checked{
+    color: rgb(230, 230, 2);
+}

@@ -1,0 +1,8 @@
+.product-list{
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    margin-bottom: 7em;
+}

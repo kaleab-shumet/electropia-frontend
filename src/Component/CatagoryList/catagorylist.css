@@ -1,0 +1,35 @@
+.catagory-list{
+    display: flex;
+    padding: .25em;
+    background-color: cornsilk;    
+    font-weight: 500;
+    cursor: pointer;
+    overflow: scroll
+}
+.catagory-list li:hover {
+    background-color: brown;
+    color: white;
+}
+@media only screen and (min-width: 686px) {
+    .catagory-list{
+        flex-direction: column;
+        overflow: auto;
+        flex: 1;
+        border-right: 1px solid rgb(255, 166, 166);
+        max-width: 15em;
+    }
+}
+
+.catagory-li{
+    padding: .5em 1em;
+    color: #D50000;
+    list-style: none;
+    border-bottom: 1px solid rgb(207, 203, 188);
+    
+}
+
+.catagory-li.active-list{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
